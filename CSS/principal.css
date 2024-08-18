@@ -1,7 +1,7 @@
 body{
-    background: #44A08D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #038C73;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #032626, #038C73);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #032626, #038C73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1{
     text-align: center;
@@ -9,16 +9,26 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navBar{
+    text-align: center;
     background-color: #038C73;
-    align-items: center;
+    padding: 1.2%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 .navBar > p{
     display: inline;
     font-size: 1.5em;
     padding: 5%;
+    margin: 3%;
 }
 .aduana{
     width: 100%;
+}
+ion-icon{
+    color: #F2ECE4;
+    font-size:large;
 }
 a{
     color: #F2ECE4;
@@ -57,10 +67,12 @@ a:hover{
 .pie{
     color: #F2ECE4;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #038C73;
+    background-color: #032626;
     font-size: 100%;
     padding-left: 20px;
     padding: 20px;
+    left: 0;
+    top: 0;
 }
 .circulo{
     display: inline-block;
