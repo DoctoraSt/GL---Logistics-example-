@@ -86,9 +86,12 @@ a:hover{
     text-align: center;
     padding: 40px;
     margin: 40px;
-    width: 20%;
-    height: 60%;
     box-shadow: 4px 4px 4px #F2ECE4;
+}
+.circulo-central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .office{
     color: #F2ECE4;
