@@ -112,7 +112,16 @@ a:hover{
     text-align: center;
     box-shadow:  2px 2px 2px #F2ECE4;
 }
-
+.divition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+    padding: 3%;
+}
+.divition > img{
+    width: 10%;
+}
 .servicios > img{
     width: 70%;
 }
