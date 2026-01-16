@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #f2ece4 !important;
+}
+
+.navbar-collapse {
+    display: flex !important;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+    gap: 1rem;
+}
+
+.nav-link{
+    color: #032626;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar .navbar-brand {
+    color: #038c73 !important;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar .nav-link:hover {
+    color: #038c73 !important;
+}
