@@ -1,3 +1,9 @@
+body{
+    background-color: #032626;
+}
+.logo{
+    background-color: #038c73;
+}
 .navbar {
     background-color: #f2ece4 !important;
 }
@@ -25,4 +31,70 @@
 
 .navbar .nav-link:hover {
     color: #038c73 !important;
+}
+
+.titulo1{
+    color: #f2ece4;
+    font-size: 500%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo2{
+    color: #038c73;
+    font-size: 500%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 100%;
+    color: #f2ece4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.fondo{
+    background-color: #032626;
+}
+
+.circulo-dos {
+    padding: 4%;
+    background-color: #f2ece4; /* Color beige claro */
+    border-radius: 50%; /* Esto lo hace circular */
+}
+
+.nav-link > a{
+    color: #032626;
+}
+
+.card-text{
+    color: #032626;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    background-color: #f2ece4;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 1%;
+}
+
+input:hover{
+    background-color: #b2aeaa;
+}
+
+.seguir{
+    background-color: #038c73;
+    color: #032626;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    padding: 1%;
+}
+
+.seguir:hover{
+    background-color:#032626;
+    color: #b2aeaa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
