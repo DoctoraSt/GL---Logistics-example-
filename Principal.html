@@ -1,63 +1,167 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="CSS/principal.css">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <link rel="icon" href ="Imagenes/Logo 2 PNG.png">
-    <title>GL Logistics</title>
-</head>
-<body>
-    <header>
-        <div class="navBar">
-            <p><a href="Principal.html">Inicio</a></p>
-            <p><a href="Acerca.html">Acerca</a></p>
-            <p><a href="Contacto.html">Contacto</a></p>
-            <p><a href="Servicios.html">Servicios</a></p>
-            <ion-icon name="search"></ion-icon>
-        </div>
-        <div class="divition">
-            <img title="logo" src="Imagenes/Logo 2 PNG.png">
-            <h1>GL Logistics</h1>
-        </div>
-        <img title="aduana" class="aduana" src="Imagenes/aduana.jpg">
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/principal.css"> 
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link href="Imagenes/Logo PNG.png" rel="icon" height="10" widht="10">
+    </body>
+        <title>GL Logistics</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Imagenes/Logo PNG.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top logo">
+                    GL Logistics
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Rastreo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     <article>
-        <div class="info">
-            <p>Empresa dedicada a la lógistica de las empresas</p>
+        <div class ="container-mayor">
+            <div class="segundo-container">
+                <h1 class="titulo1">Lógistica</h1>
+                <h1 class="titulo2">simplificada.</h1>
+            </div>
+            <div>
+                <p>Ayuda en soluciones de Lógistica por medio del aire, agua y tierra. Nosotros
+                    <br>
+                    movemos el mundo para que tú muevas tu negocio.
+                </p>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Ingrese número de rastreo">
+                        <button class="boton" type="button">Rastrear</button>
+                    </div>
+            </div>
+            <div>  
+            </div>
         </div>
     </article>
     <article>
-        <div class="service">
-            <i class="bi bi-airplane-engines"> 
-            <p>Servicio de monitoreo de paquetería aéreo</p>
-            </i>
-        </div>
-        <div class="service">
-            <i class="bi bi-truck">
-            <p>Servicio de monitoreo de transporte terreste
-                nacional e internacional</p>
-            </i>
-        </div>
-        <div class="service">
-            <ion-icon name="boat-outline"></ion-icon>
-            <p>Servicio marítimo</p>
+        <div class="segundo-mayor">
+            <h1 class="titulo3">Nuestros servicios</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="circulo">
+                            <img src="Imagenes/boat.svg" class="card-img-top" alt="Marítimo" height="60">
+                        </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Marítimo</h5>
+                        <p class="card-text">Rastreo y seguimiento de los barcos. La mejor opción para cargas grandes y pesadas.</p>
+                        <a href="...">Aprender más</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="circulo">
+                            <img src="Imagenes/airplane.svg" class="icono-circulo" alt="aéreo" height="60">
+                        </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Aéreo</h5>
+                        <p class="card-text">Monitoreo de los aviones y rastreo del contenido de los mismos.</p>
+                        <a href="...">Aprender más <img src="Imagenes/arrow-right.svg" alt="conocer más"></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="circulo">
+                            <img src="Imagenes/truck.svg" class="card-img-top" alt="terrestre" height="60">
+                        </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Terrestre</h5>
+                        <p class="card-text">Rastreo y seguimiento de los camiones y de los conductores. Factible para viajes rápidos y cortos.</p>
+                        <a href="...">Aprender más</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
         </div>
     </article>
-    <footer>
-        <div class="pie" id="columnas">
-            <i class="bi bi-facebook">Facebook oficial</i>
-            <br>
-            <i class="bi bi-whatsapp">Whatsapp</i>
-            <br>
-            <i class="bi bi-envelope">Correo</i>
-            <p>Llámanos</p>
-            <p>81-800-900</p>
+    <article>
+        <div class="tercer-mayor">
+            <div class="container text-center">
+                <div class="row row-cols-4">
+                    <div class="col litteCard">
+                        <p class="contenido1">150+</p>
+                        <p class="contenido2">Países que hemos enviado</p>
+                    </div>
+                    <div class="col">
+                        <p class="contenido1">2.5M</p>
+                        <p class="contenido2">Toneladas enviadas</p>
+                    </div>
+                    <div class="col">
+                        <p class="contenido1">99.9%</p>
+                        <p class="contenido2">De los envíos llegan en tiempo y forma</p>
+                    </div>
+                    <div class="col">
+                        <p class="contenido1">24/7</p>
+                        <p class="contenido2">Atención</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </article>
+    <article>
+        <div class="cuarto-mayor">
+            <div class="container text-center">
+                <div class="row row-cols-4">
+                    <div class="col columnaFooter">
+                        <h5 class="titulo4">GL Logistics</h5>
+                        <p class="contenido3">Rediseñando mundialmente la manera en la que se envía la paquetería</p>
+                    </div>
+                    <div class="col columnaFooter">
+                        <h5 class="titulo4">Soluciones</h5>
+                        <p class="contenido3">Cargo del proyecto</p>
+                        <p class="contenido3">Depósito</p>
+                    </div>
+                    <div class="col columnaFooter">
+                        <h5 class="titulo4">Compañia</h5>
+                        <p class="contenido3">Sobre nosotros</p>
+                        <p class="contenido3">Nuestra historia</p>
+                        <p class="contenido3">Carrera</p>
+                    </div>
+                    <div class="col columnaFooter">
+                        <h5 class="titulo4">Noticias</h5>
+                        <p class="contenido3">Mantente actualizado sobre nosotros</p>
+                        <div class="boton-suscribir">
+                            <input type="text" placeholder="Ingresa correo" class="input-email">
+                            <button class="btn-sub btn-icon">
+                                <img src="Imagenes/arrow-right.svg" alt="suscribirse">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer class="final-mayor">
+            <img src="Imagenes/Copyright-Symbol-Download-Transparent-PNG-Image.png" alt="copyrith" height="20" width="20">
+            <p>2026 Michelle Leal</p>
     </footer>
-</body>
+    </body>
 </html>
