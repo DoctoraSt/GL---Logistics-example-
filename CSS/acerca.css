@@ -1,0 +1,71 @@
+body{
+    background-color: #032626;
+}
+.logo{
+    background-color: #038c73;
+}
+
+.nav{
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-link-color: #038c73;
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-link-hover-color: #032626;
+}
+
+.navbar {
+    background-color: #f2ece4 !important;
+}
+.navbar-collapse {
+    display: flex !important;
+}
+.navbar-nav {
+    flex-direction: row !important;
+    gap: 1rem;
+}
+.nav-link{
+    color: #032626;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar .navbar-brand {
+    color: #038c73 !important;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar .nav-link:hover {
+    color: #038c73 !important;
+}
+
+.fondo{
+    background-image: 
+        linear-gradient(to right, rgba(3, 38, 38, 0.627), rgba(2, 64, 58, 0.85)),
+        url("../Imagenes/aduana.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10%;
+    text-align: left;
+}
+
+.titulo1{
+    color: #038c73;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo2{
+    color: #f2ece4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo3{
+    color: #f2ece4b8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mision{
+    background-color: #f2ece4;
+    color: #032626;
+    padding: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

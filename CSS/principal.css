@@ -105,6 +105,17 @@ h5{
     color: #0F2027;
 }
 
+.aprenderMas{
+    color: #038c73;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.aprenderMas:hover{
+    color: #032626;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .circulo {
     margin: 5%;
     width: 100px;
@@ -122,7 +133,7 @@ h5{
 }
 
 .card{
-    box-shadow: 3px 3px 3px 3px;
+    box-shadow: 3px 3px 3px 3px #bab4ad;
 }
 
 .tercer-mayor{
@@ -182,6 +193,11 @@ h5{
 .input-email:hover{
     background-color: #02403aac;
     color: #f2ece4;
+}
+
+.input-rastreo{
+    background-color: #bab4ad;
+    padding: 1%; 
 }
 
 .final-mayor{
