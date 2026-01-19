@@ -116,38 +116,31 @@ body{
 }
 
 .btnTrabajo{
-    background-color: #02403a;
+    background-color: #032626;
     color: #f2ece4;
     padding: 1%;
     border-color: #f2ece4;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .btnTrabajo:hover{
     background-color: #f2ece4;
     color: #02403a;
-    border-color: #02403a;
+    border-color: #f2ece4;
 }
 
 .btnContacto{
     background-color: #f2ece4;
     color: #02403a;
     padding: 1%;
-    border-color: #02403a;
+    text-decoration: none;
+    border-color: #032626;
     border-radius: 5px;
 }
 
-.btnContacto > a{
-    text-decoration: none;
-    color: #02403a;
-}
-
-.btnContacto >a:hover{
-    color: #f2ece4;
-}
-
 .btnContacto:hover{
-    background-color: #02403a;
+    background-color: #032626;
     color: #f2ece4;
     border-color: #f2ece4;
 }
@@ -156,6 +149,7 @@ body{
     background-color: #032626;
     display: flex;
     justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:justify;
     padding: 5%;
     color: #f2ece4;
